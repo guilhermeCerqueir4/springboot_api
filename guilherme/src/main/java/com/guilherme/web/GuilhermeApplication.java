@@ -8,6 +8,7 @@ public class GuilhermeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GuilhermeApplication.class, args);
+		
 	}
 
 }
