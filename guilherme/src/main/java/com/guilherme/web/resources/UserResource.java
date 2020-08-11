@@ -15,13 +15,12 @@ public class UserResource {
 
 	
 	@GetMapping //GetMapping indica que o método que responde a requisição do tipo GET do Http.
-	public ResponseEntity<User> findAll() { 
+	public ResponseEntity<User> findAll() {
 		User u = new User(1L , "Guilherme", "guilherme@gmail.com", "1193999393", "12345");
 		return ResponseEntity.ok().body(u);
 		
 		//metodo de EndPoint para acesar os users;
 		//ResponseEntity é um tipo de retorno do Spring para retornar respostas de requisições Web.
-		
 	}
 	
 	
